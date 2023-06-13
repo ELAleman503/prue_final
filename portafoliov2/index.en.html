@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Diego Alemán</title>
+    <script src="https://kit.fontawesome.com/d36239a715.js" crossorigin="anonymous"></script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+        
+    <!-- SEO -->
+    <meta property="og:image" content="img/profile.jpg" />
+    <meta property="og:title" content="Diego Alemán" />
+    <meta property="og:description" content=".La privacidad de las personas es un derecho" />
+    <meta property="og:type" content="website" />
+</head>
+<body>
+	<header>
+		<img src="img/logo.jpeg" alt="Imagen de perfil">
+		<nav>
+			<ul>
+				<li><a href="#inicio">Home</a></li>
+				<li><a href="#sobre-mi">About me</a></li>
+				<li><a href="#projects">Proyects</a></li>
+				<li><a href="#contacto">Contacts</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<section id="inicio">
+        <div class="profile">
+            <img src="img/profile.jpg" alt="Logo">
+            <p>"The privacy of people is a right"</p>
+        </div>
+        <div class="descripcion">
+            <h1>Hello I am Diego Alexander Alemán Castro.</h1>
+            <br>
+		    <p>Passionate about cybersecurity and computer networks, my specialty is the security section such
+                as pentesting, auditing of information security systems and the management and design of
+                computer networks.</p>
+        </div>
+
+        <div class="contenido">
+            <div class="insignias">
+                <h2>Digital Badges</h2>
+                <br>
+                <ul>
+                <li><img src="img/insignia1.png" alt="" class="height: 75px; width: 100px; aspect-ratio: 1/2;"></li>
+                <li><img src="img/insignia2.png" alt="" class="height: 75px; width: 100px; aspect-ratio: 1/2;"></li>
+                <li><img src="img/insignia3.png" alt="" class="height: 75px; width: 100px; aspect-ratio: 1/2;"></li>
+                </ul>
+            </div>
+            <div class="herramientas">
+                <h2>main tools</h2>
+                <br>
+                <ul>
+                <li><img src="img/herramienta1.webp" alt="" class="height: 75px; width: 100px; aspect-ratio: 1/2;"></li>
+                <li><img src="img/herramienta2.webp" alt="" class="height: 75px; width: 100px; aspect-ratio: 1/2;"></li>
+                <li><img src="img/herramienta3.webp" alt="" class="height: 75px; width: 100px; aspect-ratio: 1/2;"></li>
+                <li><img src="img/herramienta4.webp" alt="" class="height: 75px; width: 100px; aspect-ratio: 1/2;"></li>
+                </ul>
+            </div>
+        </div>
+	</section>
+	
+	<section id="sobre-mi">
+		<h2>About me</h2>
+		<a href="docs/cv.en.pdf" download>Download CV</a>
+		<iframe src="docs/cv.en.pdf#toolbar=0" width="100%" height="500px" ></iframe>
+	</section>
+
+	<section id="projects">
+		<h2>Mis proyectos</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="img/Imagen10.png" alt="" id="imgproyect" data-modal="uno" class="proyect-toggle">
+                <div class="modal" id="uno">
+                  <div class="modal-content">
+                    <span class="close" data-toggle="uno">&times;</span>
+                    <div class="left-side">
+                        <img src="img/Imagen1.png" alt="" srcset="">
+                        <h3>Rol</h3>
+                        <span>security incident analyst</span>
+                    </div>
+                    <div class="right-side">
+                        <h3>Problem</h3>
+                        <span>Has detected an intrusion into your systems. The administrators of organization security could not find the security hole, but they believe that the entire intrusion could have occurred from a Red Hat machine with some outdated services. For this reason they have hired you to make an analysis and exploitation of vulnerabilities in their systems so that can correct the errors. There may be more than one way to exploitation.</span>
+                    </div>
+                  </div>
+                </div>
+            </div>    
+
+            <div class="project">
+                <img src="img/Imagen11.png" alt="" id="imgproyect" data-modal="dos" class="proyect-toggle">
+                <div class="modal" id="dos">
+                  <div class="modal-content">
+                    <span class="close" data-toggle="dos">&times;</span>
+                    <div class="left-side">
+                        <img src="img/Imagen3.png" alt="" srcset="">
+                        <h3>Rol</h3>
+                        <span>security incident analyst</span>
+                    </div>
+                    <div class="right-side">
+                        <h3>Eternal</h3>
+                        <span>Eternal is a security consultancy that works for public companies and private around the world. Recently in one of his evaluations of security to an organization detected that there were several Windows 7 computers connected to the network. So he decided to exploit one of the most common vulnerabilities critics and known in the last decade.</span>
+                    </div>
+                  </div>
+                </div>
+            </div>      
+
+            <div class="project">
+                <img src="img/Imagen12.png" alt="" id="imgproyect" data-modal="tres" class="proyect-toggle">
+                <div class="modal" id="tres">
+                  <div class="modal-content">
+                    <span class="close" data-toggle="tres">&times;</span>
+                    <div class="left-side">
+                        <img src="img/Imagen5.png" alt="" srcset="">
+                        <h3>Rol</h3>
+                        <span>IT Security Analyst.</span>
+                    </div>
+                    <div class="right-side">
+                        <h3>Descripción</h3>
+                        <span>Monkey is a web application developer and has been asked to develop a student portal. However, before the web application went into production, some security flaws were detected that could be critical.</span>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="img/Imagen7.png" alt="" id="imgproyect" data-modal="cuatro" class="proyect-toggle">
+                <div class="modal" id="cuatro">
+                  <div class="modal-content">
+                    <span class="close" data-toggle="cuatro">&times;</span>
+                    <div class="left-side">
+                        <img src="img/Imagen7.png" alt="" srcset="">
+                        <h3>Rol</h3>
+                        <span>Computer network manager and designer.</span>
+                    </div>
+                    <div class="right-side">
+                        <h3>Descripción</h3>
+                        <span>A set of 7 LAN networks was designed, created and connected by means of a summary route, which had different sizes of hosts for different administrative and communication functions.</span>
+                    </div>
+                  </div>
+                </div>
+            </div> 
+
+            <div class="project">
+                <img src="img/Imagen8.png" alt="" id="imgproyect" data-modal="cinco" class="proyect-toggle">
+                <div class="modal" id="cinco">
+                  <div class="modal-content">
+                    <span class="close" data-toggle="cinco">&times;</span>
+                    <div class="left-side">
+                        <img src="img/Imagen8.png" alt="" srcset="">
+                        <h3>Rol</h3>
+                        <span>Computer network manager and designer.</span>
+                    </div>
+                    <div class="right-side">
+                        <h3>Descripción</h3>
+                        <span>Business network designed for different uses within a company segmented by different VLANs and using IPV4 and IPV6 in the network due to specific requirements, testing INTER-VLAN and STP protocols.</span>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="img/Imagen9.png" alt="" id="imgproyect" data-modal="seis" class="proyect-toggle">
+                <div class="modal" id="seis">
+                  <div class="modal-content">
+                    <span class="close" data-toggle="seis">&times;</span>
+                    <div class="left-side">
+                        <img src="img/Imagen9.png" alt="" srcset="">
+                        <h3>Rol</h3>
+                        <span>Computer network manager and designer</span>
+                    </div>
+                    <div class="right-side">
+                        <h3>Descripción</h3>
+                        <span>WAN network designed for a company which combines communications with a wireless router network with other LAN networks communicated through an ethernet to establish communication at both ends using the default route routing method.</span>
+                    </div>
+                  </div>
+                </div>
+            </div>              
+        </div>
+	</section>
+
+    <section id="certificaciones">
+        <h2>Acknowledgments</h2>
+        <div class="certificaciones-slider">
+            <div>
+                <img src="img/Imagen13.png" alt="Certificación 1">
+            </div>
+            <div>
+                <img src="img/Imagen14.jpg" alt="Certificación 1">
+            </div>
+            <div>
+                <img src="img/Imagen15.png" alt="Certificación 2">
+            </div>
+            <div>
+                <img src="img/Imagen16.png" alt="Certificación 3">
+            </div>
+            <!-- <div>
+                <img src="img/Imagen17.png" alt="Certificación 3">
+            </div> -->
+        </div>
+    </section>
+      
+      
+      
+
+    <section id="contacto">
+		<h2>Contact Me</h2>
+        <form id="form">
+            <input type="hidden" name="to_name" value="Diego Aleman">
+            <input type="hidden" name="to_email" value="alphons.elricfmav@gmail.com">
+            <label for="from_name">
+                Name: 
+                <input type="text" id="from_name" name="from_name">
+            </label>
+            <label for="from_email">
+                Email: 
+                <input type="email" id="from_email" name="from_email">
+            </label>
+            <label for="subject">
+                Subject: 
+                <input type="text" id="subject" name="subject">
+            </label>
+            <label for="message">
+                Message: 
+                <textarea type="text" id="message" name="message"></textarea>
+            </label>
+
+            <input type="submit" value="Enviar">
+        </form>
+	</section>
+
+	<footer>
+		<a href="index.html">English</a>
+        <a href="#">linkedin</a>
+	</footer>
+
+    <script type="text/javascript">
+        emailjs.init("MGDxCUuOMYk3CSxXV");
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+
+            document.getElementById('form')
+            .addEventListener('submit', function(event) {
+                event.preventDefault();
+
+                const serviceID = 'service_dq9uwx9';
+                const templateID = 'template_90ev7ee';
+
+                emailjs.sendForm(serviceID, templateID, this, 'MGDxCUuOMYk3CSxXV')
+                .then(() => {
+                    alert('Send!');
+                }, (err) => {
+                    alert(JSON.stringify(err));
+                });
+            });
+
+        }
+    </script>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
